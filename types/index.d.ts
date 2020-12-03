@@ -246,6 +246,7 @@ export class Globe {
       globeTexture?: string | null;
     };
     tooltipElement: HTMLDivElement;
+    customMeshToRender: THREE.Mesh;
   });
 
   animate(): void;
